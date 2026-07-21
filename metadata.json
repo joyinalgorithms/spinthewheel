@@ -1,0 +1,6 @@
+{
+  "name": "Wheel of Names",
+  "description": "An elegant random picker web application with customizable categories, bulk entry, and a realistic physics-based spinning wheel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
