@@ -443,7 +443,7 @@ function MainAppContent() {
               Wheel of Names
             </Typography>
             <Typography level="body-xs" sx={{ color: 'text.tertiary' }}>
-              Elegant Random Picker
+             Random Picker
             </Typography>
           </div>
         </Stack>

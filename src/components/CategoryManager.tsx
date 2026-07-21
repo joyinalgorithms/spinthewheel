@@ -362,7 +362,7 @@ export default function CategoryManager({
         <div className="flex-grow relative flex items-center">
           <input
             type="text"
-            placeholder="New category name..."
+            placeholder="New categor..."
             value={newCatName}
             onChange={(e) => setNewCatName(e.target.value)}
             className="w-full pl-3.5 pr-28 py-2 bg-neutral-50 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#3E5F44] dark:focus:ring-[#7FA36B] text-sm font-medium transition-all"
@@ -727,7 +727,7 @@ export default function CategoryManager({
       {/* Bulk Add dialog */}
       <Modal open={isBulkOpen} onClose={() => setIsBulkOpen(false)}>
         <ModalDialog sx={{ maxWidth: 500, width: '100%', borderRadius: '20px' }}>
-          <DialogTitle fontFamily="Space Grotesk" fontWeight="bold">
+          <DialogTitle sx={{ fontFamily: 'Space Grotesk', fontWeight: 'bold' }}>
             Paste Multiple Names
           </DialogTitle>
           <DialogContent>
@@ -756,7 +756,7 @@ export default function CategoryManager({
       {/* Backup and restore modal */}
       <Modal open={isImportExportOpen} onClose={() => setIsImportExportOpen(false)}>
         <ModalDialog sx={{ maxWidth: 440, width: '100%', borderRadius: '20px' }}>
-          <DialogTitle fontFamily="Space Grotesk" fontWeight="bold">
+          <DialogTitle sx={{ fontFamily: 'Space Grotesk', fontWeight: 'bold' }}>
             Backup & Restore Data
           </DialogTitle>
           <DialogContent>
